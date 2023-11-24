@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do List</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100&family=Playpen+Sans:wght@300&family=Poppins:wght@100;200;300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./Todo.css" />
+  </head>
+
+  <body>
+    <div class="toDo-container">
+      <h1>ToDo List</h1>
+      <input type="text" id="task-input" placeholder="Add Item To List..." />
+      <button id="btn">Add Item<i class="fas fa-pencil-alt"></i></button>
+
+      <h2>My Tasks</h2>
+      <div class="Input-List">
+        <table id="containerTasks">
+          <tr class="table-Row">
+            <th>List Item</th>
+            <th>Edit</th>
+            <th>Delete</th>
+            <th>Mark Complete</th>
+          </tr>
+        </table>
+
+        
+      </div>
+      
+    </div>
+
+    <script src="./Todolist.js"></script>
+  </body>
+</html>

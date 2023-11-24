@@ -1,0 +1,41 @@
+body{
+    background-color: thistle;
+}
+.toDo-container{
+    margin:0 auto;
+   text-align: center;
+
+
+}
+#task-input{
+    background-color: aliceblue;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+#btn{
+    background-color: rgba(165, 42, 42, 0.103);
+    box-sizing:content-box;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.Input-List{
+    background-color:rgb(247, 246, 245);
+    width: 50%;
+    margin-left: 250px;
+    border-radius: 20px;
+    border:1px solid purple ;
+    padding: 30px;
+
+    
+}
+#containerTasks{
+ padding: 10px;
+
+}
+td,th{
+   padding:20px;
+
+}
